@@ -38,7 +38,7 @@ const (
 		"epoch_number DECIMAL(65, 0) NOT NULL, " +
 		"block_height DECIMAL(65, 0) NOT NULL, " +
 		"action_hash VARCHAR(64) NOT NULL, " +
-		"action_type TEXT NOT NULL, " +
+		"action_type VARCHAR(64) NOT NULL, " +
 		"`from` VARCHAR(41) NOT NULL, " +
 		"`to` VARCHAR(41) NOT NULL, " +
 		"KEY from_index (`from`), " +
